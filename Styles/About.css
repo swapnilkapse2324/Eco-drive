@@ -1,0 +1,56 @@
+.Acrousel{
+    background-image: url('../Images/about\ crowsel.png');
+    height: 900px;
+}
+.goal{
+    display: flex;
+    justify-content: space-around;
+}
+.head{
+    font-size: 25px;
+    text-align: center;
+
+}
+.headd{
+    text-align: center;
+    margin-top: -17px;
+    font-size: 20px;
+}
+.headingg{
+          text-align: center;
+          margin-top: -17px;
+}
+.heading{
+    font-size: 20px;
+
+    
+}
+.para{
+    text-align: center;
+}
+.factimg{
+    height: 650px;
+    width: 550px;
+    
+}
+.story{
+    margin-top: -17px;
+    font-size: 20px;
+    font-weight: 770px;
+    text-align: center;
+}
+.founder{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+.ourfounders{
+    text-align: center;
+    font-size: 54px;
+    color:#0b49a6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: #dee2e6;
+    height: 500px;
+}
