@@ -1,0 +1,13 @@
+.main{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.iYXC-U8kl5fj38Lfg-bY9gHaEK&pid=Api&P=0&h=180');
+     /* height: 1000px; 
+    width: 1000px;  */
+    background-size: cover;
+
+}
+.slide{
+background-color: black;
+height: auto;
+width: 300px;
+color: white;
+}
