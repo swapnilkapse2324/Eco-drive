@@ -5,21 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./../Styles/Contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
 </head>
-</head>
-<body class="main">
-<div class="slide active" >
-    <label>Name:</label>
-     <input type="Text" id="Name" placeholder="Enter your name"/><br><br>
+<body>
+    <body class="img">
+        <div class="slide active" ></div>
+            </body>
 
-     <label>Last Name</label>
-     <input type="text" id="Last Name" placeholder="Enter your last name"/><br><br>
+        <div class="head" data-aos="zoom-in-up">   
+    <div class="contactMethod">
+        <div class="method">
+           <i class="fa fa-map-marker"></i>
+           <article class="text">
+             <h1 class="sub-heading"> Location</h1>
+             <!-- <div class="xyz">
+              <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" alt="" height="30px" width="30px"/>
+             </div> -->
+             <p class="para">Trivia Motors<br>Shop No 7,Shivom Regency<br> Main Baner Road - 411045<br>Pune</p>
+           </article>
+           <div class="xyz">
+            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" alt="" height="30px" width="30px"/>
+           </div>
+         </div><br><br><br><br>
+     
+         <div class="method">
+           <i class="fa fa-envelope"></i>
+           <article class="text">
+             <h1 class="sub-heading"> Email</h1>
+             <p class="para">triviamotor@gmail.com</p>
+           </article>
+           <div class="abc">
+            <img src="https://cdn-icons-png.flaticon.com/128/6244/6244710.png" alt="" height="30px" width="30px"/>
+           </div>
+         </div>
+     
+         <div class="method">
+           <i class="fa fa-phone"></i>
+           <article class="text">
+             <h1 class="sub-heading"> Phone </h1>
+             <p class="para">8694948494</p>
+           </article>
+           <div class="abc">
+            <img src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="" height="30px" width="30px"/>
+           </div>
+         </div>
+        </div> 
 
-     <label>Phone No</label>
-     <input type="number" id="phone no" placeholder="Enter your phone no"/><br><br>
-
-     <button>Submit</button>
+    <div class="main">
+    <div class="contact-form-container">
+        <h1>Contact Us !</h1>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone no">Phone No:</label>
+            <input type="Number" id="Number" name="Number" required><br><br>
+            
+            <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
     </div>
+</div>
+
+<div class="map-container">
+  <div class="mapBg"></div>
+  <div class="map"></div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.104442254525!2d73.78734715209113!3d18.557398431285947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bed83b0c07db%3A0xea503271dd0b8aa8!2sTrivia%20Motors!5e0!3m2!1sen!2sin!4v1718987688623!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
+

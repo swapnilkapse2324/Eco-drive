@@ -6,7 +6,7 @@
     margin: 20px;
     transition: 1s;
     border: 1px soild black;
-    box-shadow: 1px 1px 50px 1px ;
+    /* box-shadow: 1px 1px 40px 1px ; */
 }
 .card:hover{
     transform: scale(0.9);
@@ -37,7 +37,13 @@
 .carousel-item:hover{
     transform: scale(0.9);
 }
-.icon {
+.text{
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+    font: bold;
+}
+.icon{
     font-size: 25px;
     color: yellow;
 }

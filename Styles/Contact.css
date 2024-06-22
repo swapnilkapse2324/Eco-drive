@@ -1,7 +1,7 @@
-.main{
-    background-image: url('https://tse1.mm.bing.net/th?id=OIP.iYXC-U8kl5fj38Lfg-bY9gHaEK&pid=Api&P=0&h=180');
-     /* height: 1000px; 
-    width: 1000px;  */
+.img{
+    background-image: url('https://media.istockphoto.com/id/1091165998/photo/city-skyline-and-buildings-with-empty-asphalt-road-at-sunrise.jpg?s=2048x2048&w=is&k=20&c=5P9jDFft8fV4CeXT_wtmCTu-0hCs65GI5ISa5YGOgMI=');
+     height: 1000px; 
+    width: 1000px;  
     background-size: cover;
 
 }
@@ -11,3 +11,49 @@ height: auto;
 width: 300px;
 color: white;
 }
+
+
+
+.main{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+
+     margin: 100px; 
+    margin-left: 450px;
+    margin-top: -380px;
+    text-align: center;
+}
+.head{
+    height:400px ;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin: 20px;
+    /* padding: 10px; */
+    margin-left:200px ;
+    margin-top: 200px;
+    text-align: center;
+    
+    
+}
+.xyz{
+    height: 40px;
+    width: 40px;
+   /* border: 1px solid black; */
+   margin-left: 250px;
+   margin-top: -135px;
+}
+.abc{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    margin-left: 210px;
+    margin-top: -80px;
+}
+.map-container{
+    /* height: 600px;
+    width: 900px; */
+     margin-left: 650px;
+} 
+
