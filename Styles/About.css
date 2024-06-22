@@ -9,16 +9,18 @@
 .head{
     font-size: 25px;
     text-align: center;
+    margin-top: 30px;
 
 }
 .headd{
     text-align: center;
-    margin-top: -17px;
+    margin-top: 16px;
     font-size: 20px;
+    font-weight: 100px;
 }
 .headingg{
           text-align: center;
-          margin-top: -17px;
+          margin-top: -6px;
 }
 .heading{
     font-size: 20px;
@@ -31,10 +33,13 @@
 .factimg{
     height: 650px;
     width: 550px;
-    
-}
+    transition: 1s ;
+    }
+    .facetimg:hover{
+        transform: (1.1);
+    }
 .story{
-    margin-top: -17px;
+    margin-top: 17px;
     font-size: 20px;
     font-weight: 770px;
     text-align: center;
@@ -45,12 +50,26 @@
     text-align: center;
 }
 .ourfounders{
+    margin-top: 10px;
     text-align: center;
     font-size: 54px;
     color:#0b49a6;
     font-family: Arial, Helvetica, sans-serif;
 }
+.ecohead{
+    margin-top: -45px;
+    font-size: 33px;
+    color: #0b49a6;
+}
+    
+
 .footer{
     background-color: #dee2e6;
-    height: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
 }
+.foot{
+    margin-top: 50px;
+}
+
