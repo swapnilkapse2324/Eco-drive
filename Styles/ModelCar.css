@@ -5,8 +5,8 @@
 .card{
     margin: 20px;
     transition: 1s;
-    border: 1px soild black;
-    box-shadow: 1px 1px 50px 1px ;
+    border: 2px soild darkcyan;
+    box-shadow: 10px 10px 5px 20px 10px ;
 }
 .card:hover{
     transform: scale(0.9);
@@ -14,30 +14,30 @@
 .head{
     text-align: center;
     margin-top: 20px;
+    color: darkcyan;
+    font: bold;
 }
 .heading{
     text-align: center;
+    color: darkcyan;
 }
 .btn{
     border: 1px solid gray;
     
 }
 .next{
-    transition: 1s;
+    
     /* border: 1px solid black; */
     border-radius: 4px 4px 4px 4px;
 }
-.next:hover{
-    transform: scale(0.9);
-}
-.carousel-item{
-    transition: 1s;
-    /* border-radius: 4px 4px 4px 4px; */
-}
-.carousel-item:hover{
-    transform: scale(0.9);
-}
+
 .icon {
     font-size: 25px;
     color: yellow;
+}
+.btn-1{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 700px;
 }

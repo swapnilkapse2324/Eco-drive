@@ -23,20 +23,12 @@
     
 }
 .next{
-    transition: 1s;
+
     /* border: 1px solid black; */
     border-radius: 4px 4px 4px 4px;
 }
-.next:hover{
-    transform: scale(0.9);
-}
-.carousel-item{
-    transition: 1s;
-    /* border-radius: 4px 4px 4px 4px; */
-}
-.carousel-item:hover{
-    transform: scale(0.9);
-}
+
+
 .text{
     text-align: center;
     margin: 20px;
