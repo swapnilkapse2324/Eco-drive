@@ -1,3 +1,4 @@
+
 .Acrousel{
     background-image: url('../Images/about\ crowsel.png');
     height: 900px;
@@ -49,12 +50,41 @@
     width: 100%;
     text-align: center;
 }
+.mainn{
+    width: 200px;
+    transition: 2s;
+}
+.mainn:hover{
+    transform: scale(1.1);
+    transition: 2s;
+
+}
+.founderimg{
+    border: 5px solid black;
+}
 .ourfounders{
     margin-top: 10px;
     text-align: center;
     font-size: 54px;
     color:#0b49a6;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 29px;
+}
+
+.nm{
+    text-align: center;
+    font-size: 29px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+color:#0b49a6;
+}
+.nmm{
+    text-align: center;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 00px;
+    color:#0b49a6;
 }
 .ecohead{
     margin-top: -45px;
