@@ -46,3 +46,19 @@
 .hr{
     border: 3px solid black;
 }
+.ecohead{
+    margin-top: -45px;
+    font-size: 33px;
+    color: #0b49a6;
+}
+    
+
+.footer{
+    background-color: #dee2e6;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    margin-top: 50px;
+}

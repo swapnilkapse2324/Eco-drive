@@ -15,18 +15,18 @@ color: white;
 
 
 .main{
-    height: 400px;
+    height: 420px;
     width: 400px;
     border: 1px solid black;
     border-radius: 20px 20px 20px 20px;
 
      margin: 100px; 
     margin-left: 450px;
-    margin-top: -380px;
+    margin-top: -400px;
     text-align: center;
 }
 .head{
-    height:400px ;
+    height:200px ;
     width: 400px;
     /* border: 1px solid black; */
     margin: 20px;
@@ -42,7 +42,7 @@ color: white;
     width: 40px;
    /* border: 1px solid black; */
    margin-left: 250px;
-   margin-top: -135px;
+   margin-top: -170px;
 }
 .abc{
     height: 100px;
@@ -50,6 +50,13 @@ color: white;
     /* border: 1px solid black; */
     margin-left: 210px;
     margin-top: -80px;
+}
+.phone{
+        height: 100px;
+        width: 100px;
+        /* border: 1px solid black; */
+        margin-left: 210px;
+        margin-top: -150px;
 }
 .map-container{
     /* height: 600px;
