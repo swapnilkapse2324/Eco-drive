@@ -1,43 +1,85 @@
-.main{
+.main {
     border: 5px solid black;
     border-radius: 20px;
     margin-left: 50px;
     margin-bottom: 70px;
-    transition : 1s;
-    box-shadow: 5px 5px 5px 10px rgb(100, 214, 214);
+    transition: 1s;
+    box-shadow: 5px 0px 10px 5px grey;
 }
-.main:hover{
+
+.main:hover {
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: 5px 5px 5px 10px aqua;
+    box-shadow: 6px 2px 11px 8px grey;
 
 }
-.name{
+
+.name {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.price{
+
+.price {
     margin-left: 80px;
 }
-.compname{
+
+.compname {
     margin-left: 60px;
 }
-.add{
+
+.add {
     margin-left: 68px;
 }
+
 .star {
     font-size: 24px;
     color: yellow;
     margin-left: px;
 }
-.rating{
+
+.rating {
     margin-left: 5px;
     background-color: green;
     color: whitesmoke;
     font-size: 15px;
     padding: 3px;
     border-radius: 5px;
+    margin: 8px;
 }
-.button{
-    margin-left: 52px;
+
+.button {
+    /* margin-left: 52px; */
+    background-color: #0b49a6;
+    color: whitesmoke;
+}
+.cardimg{
+    height: 500px;
+}
+.model{
+    display: flex;
+    justify-content: center;
+
+}
+.hover{
+    transition: 1s;
+}
+.hover:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.product{
+    font-weight: 600;
+    color:#0b49a6;
+}
+.pricee{
+    font-weight: 700;
+    font-size: 20px;
+}
+.imgs{
+    /* margin-bottom: 500px; */
+    background-color:whitesmoke;
+
+}
+.a{
+    height: 540px;
 }

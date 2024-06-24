@@ -1,3 +1,16 @@
+*home{
+    margin: 0%;
+}
+.eco{
+    background-color: #dee2e6;
+    height: 56px;
+    margin-bottom: 5px;
+    
+}
+.ed{
+    color:  #0b49a6;
+    background-color: aqua;
+}
 .crousell{
     height: 90vh;
 }
@@ -64,7 +77,20 @@ justify-content: space-around;
     /* border: 2px solid rgb(106, 233, 106); */
 }
 .num{
-    margin-left: 50px;
+    margin-left: 45px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: bold;
+}
+.numm{
+    /* margin-left: 4px; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nummm{
+    margin-left: 35px;
+    /* text-align: center; */
     font-size: 30px;
     font-weight: bold;
 }
