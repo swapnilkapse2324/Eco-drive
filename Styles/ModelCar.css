@@ -11,12 +11,25 @@
 .card:hover{
     transform: scale(0.9);
 }
+
+.hr{
+    border: 3px solid black;
+}
 .head{
     text-align: center;
     margin-top: 20px;
     color: darkcyan;
     font: bold;
+    background-color: white;
+    width: 20vw;
+    margin: auto;
+    position: relative;
+    top: -45px;
+    
 }
+/* .head-span{
+    font-size: 52px;
+} */
 .heading{
     text-align: center;
     color: darkcyan;
