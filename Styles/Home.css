@@ -1,3 +1,20 @@
+*home{
+    margin: 0%;
+}
+.abc{
+    margin-top:  -6px;
+    position: fixed;
+}
+.eco{
+    background-color: #dee2e6;
+    height: 56px;
+    margin-bottom: 5px;
+    
+}
+.ed{
+    color:  #0b49a6;
+    /* background-color: aqua; */
+}
 .crousell{
     height: 90vh;
 }
@@ -8,19 +25,26 @@
     display: inline-block;
 }
 .s1pro{
-font-family: ;
+font-family: cursive;
+font-size: 25px;
 }
 .icon{
  margin-top: 70px;
 display: flex;
 justify-content: space-around;
+
 }
+
 .imgicon{
     border-radius: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 200px;
     width: 220px;
     cursor: pointer;
+    transition: 2s;
+}
+.imgicon:hover{
+    transform: scale(1.1);
 }
 .h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -33,9 +57,9 @@ justify-content: space-around;
     text-align:center;
     padding: 90px;
     font-family:Arial, Helvetica, sans-serif;
-    color: black;
+    color:  #0b49a6;;
     font-size: 50px;
-    font-weight:500;
+    font-weight:550;
    
 
 }
@@ -43,9 +67,9 @@ justify-content: space-around;
     text-align:center;
     margin-top: -100px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color:  #0b49a6;
     font-size: 50px;
-    font-weight:500;
+    font-weight:550;
    
 
 }
@@ -64,7 +88,20 @@ justify-content: space-around;
     /* border: 2px solid rgb(106, 233, 106); */
 }
 .num{
-    margin-left: 50px;
+    margin-left: 45px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: bold;
+}
+.numm{
+    /* margin-left: 4px; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nummm{
+    margin-left: 35px;
+    /* text-align: center; */
     font-size: 30px;
     font-weight: bold;
 }
@@ -86,4 +123,11 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .png{
     margin: 5px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.vid{
+    margin: 25px;
 }
